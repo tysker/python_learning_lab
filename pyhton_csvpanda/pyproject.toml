@@ -1,0 +1,14 @@
+[project]
+name = "myproject"
+version = "0.1.0"
+description = "example project"
+
+[tool.pyright]
+include = ["src"]
+venvPath = "."
+venv = "venv"
+typeCheckingMode = "basic"
+
+[tool.ruff]
+select = ["E", "F", "I"]
+line-length = 100
